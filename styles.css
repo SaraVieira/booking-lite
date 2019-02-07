@@ -1,0 +1,44 @@
+#bodyconstraint a.ribbon.js-fly-content-tooltip, #bodyconstraint .sr_no_desc_users.js_sr_persuation_msg, #bodyconstraint .sr-booked-x-times, #bodyconstraint .in-high-demand-not-scarce, #bodyconstraint .strike-it-red_anim.change-text-color-gray, #bodyconstraint .d-deal-b, #bodyconstraint .soldout_property, #bodyconstraint .ribbon--outer.ribbon__sustainable.ribbon__sustainable_light, #bodyconstraint .js_sr_persuation_msg, #bodyconstraint .fe_banner.fe_banner__accessible.fe_banner__w-icon.fe_banner__green.fe_banner__w-icon-medium, #bodyconstraint .ribbon--outer.ribbon__extra.js_icon_over_photo, #bodyconstraint svg.bk-icon.-iconset-thumbs_up_square.pp-icon-valign--tbottom, #bodyconstraint table.featuredRooms.sr_room_table.sr_rt_wider_urgency_msg.sr_rms_tbl_bdr thead, #bodyconstraint .sr_hotel_expectation__wrapper, #bodyconstraint .add-red-tag.add-red-tag--ribbon.all-inclusive-ribbon.js_icon_over_photo.bfast-included-ribbon, #bodyconstraint .bicon-question.jq_tooltip.crossedout-price-icon, #bodyconstraint span.free-cancel-persuasion.fix_line_break_ja, #bodyconstraint .distfromdest_clean, .similar_destination.sr_compset_grid.track_similar_destination {
+  display: none !important;
+}
+
+body .sr_item_new.sr_item--highlighted:first-child {
+  border: 1px solid #c6c6c6;
+}
+
+body .sr_item_new.sr_item--highlighted {
+  background: white;
+  box-shadow: none;
+}
+
+#bodyconstraint .scarcity_color {
+  color: #0ab21b !important;
+}
+
+#bodyconstraint .hotel_image {
+  max-height: 160px;
+}
+
+/*
+// hotel page */
+
+.urgency_message_red, .reviews-carousel-container, .best-review-score.best-review-score-with_best_ugc_highlight, .best-ugc-highlight-by-photo, span.hp-description--property-name-top-ranked.dtri.hp-description--property-name-top-ranked--contrast, span.hp-rt-recently-booked.js--hp-rt-recently-bookedanim, span.top_scarcity {
+  display: none !important;
+}
+
+/* HOMEPAGE */
+
+#midYearDealsBanner, body.index #basiclayout, .discover-index, .slinks, .emk_footer_update.emk_footer_centered.emk_footer_update_space, #booking-footer, .lp_flexible_layout_content_wrapper {
+  display: none;
+}
+
+.xpi__content__wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body, html {
+  height: 100%;
+}
